@@ -1,0 +1,11 @@
+{
+  "biomeColor": [
+    0.48,
+    0.44,
+    0.52,
+    1
+  ],
+  "no_features": true,
+  "papa": "/pa/terrain/crystal/fbx/crystal_ramp_small_01.papa",
+  "pathable": true
+}

@@ -1,0 +1,472 @@
+{
+  "base_texture": "/pa/terrain/crystal/textures/base/crystal_tile_diffuse.papa",
+  "brushes": [
+    {
+      "bias": 4,
+      "brush_spec": "/pa/terrain/crystal/brushes/crystal_mountain_01.json",
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "group": "basic",
+      "layer": 4,
+      "noise_range": [
+        0.5,
+        0.6
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.1,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "brush_spec": "/pa/terrain/crystal/brushes/crystal_mountain_02.json",
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "group": "basic",
+      "layer": 4,
+      "noise_range": [
+        0.5,
+        0.6
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.1,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "brush_spec": "/pa/terrain/crystal/brushes/crystal_mountain_03.json",
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "group": "basic",
+      "layer": 4,
+      "noise_range": [
+        0.5,
+        0.6
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "scale_variation": 0.1,
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "brush_spec": "/pa/terrain/crystal/brushes/crystal_ramp_small_01.json",
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "group": "basic",
+      "layer": 1,
+      "noise_range": [
+        0,
+        0
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "brush_spec": "/pa/terrain/crystal/brushes/crystal_ramp_small_02.json",
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "group": "basic",
+      "layer": 1,
+      "noise_range": [
+        0,
+        0
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "brush_spec": "/pa/terrain/crystal/brushes/crystal_platform_small_01.json",
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "group": "basic",
+      "layer": 1,
+      "noise_range": [
+        0,
+        0
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    }
+  ],
+  "color": [
+    0.48,
+    0.44,
+    0.62,
+    1
+  ],
+  "decals": [
+    {
+      "bias": 10,
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 3,
+      "material_spec": "/pa/terrain/crystal/decals/crystal_decal_02.json",
+      "noise_range": [
+        0.0,
+        0.9
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "scale": [
+        80,
+        80,
+        1
+      ],
+      "scale_variation": 0.25
+    },
+    {
+      "bias": 50,
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 4,
+      "material_spec": "/pa/terrain/crystal/decals/crystal_decal_01.json",
+      "noise_range": [
+        0.2,
+        1.0
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "scale": [
+        50,
+        50,
+        1
+      ],
+      "scale_variation": 0.35
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 6,
+      "material_spec": "/pa/terrain/crystal/decals/crystal_decal_03.json",
+      "noise_range": [
+        0.7,
+        1.0
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "scale": [
+        10,
+        10,
+        1
+      ],
+      "scale_variation": 0.7
+    },
+    {
+      "bias": 300,
+      "count": 1,
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "layer": 7,
+      "material_spec": "/pa/terrain/crystal/decals/crystal_decal_04.json",
+      "noise_range": [
+        0.0,
+        0.3
+      ],
+      "pos_range": [
+        0.15,
+        0.15
+      ],
+      "scale": [
+        10,
+        10,
+        1
+      ],
+      "scale_variation": 0.7
+    }
+  ],
+  "features": [
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/crystal/features/crystal_rock_01.json",
+      "layer": 3,
+      "noise_range": [
+        0.2,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/crystal/features/crystal_rock_02.json",
+      "layer": 4,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        5
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/crystal/features/crystal_rock_03.json",
+      "layer": 5,
+      "noise_range": [
+        0.6,
+        0.8
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        4
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/crystal/features/crystal_rock_04.json",
+      "layer": 6,
+      "noise_range": [
+        0.2,
+        0.4
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "cluster_count_range": [
+        0,
+        4
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/crystal/features/crystal_rock_05.json",
+      "layer": 7,
+      "noise_range": [
+        0.4,
+        0.6
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 10
+    },
+    {
+      "cluster_count_range": [
+        0,
+        4
+      ],
+      "cluster_size": 10,
+      "feature_spec": "/pa/terrain/crystal/features/crystal_rock_06.json",
+      "layer": 8,
+      "noise_range": [
+        0.6,
+        0.8
+      ],
+      "op": "BO_Add",
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "disable": true,
+      "noise": {
+        "scale": 1.5,
+        "type": "simplex",
+        "zoom": 1
+      },
+      "note": "0"
+    },
+    {
+      "noise": {
+        "scale": 1,
+        "type": "simplex",
+        "zoom": 1
+      },
+      "note": "1"
+    },
+    {
+      "noise": {
+        "scale": 3,
+        "type": "simplex",
+        "zoom": 2
+      },
+      "note": "2"
+    },
+    {
+      "noise": {
+        "scale": 4,
+        "type": "simplex",
+        "zoom": 10
+      },
+      "note": "3"
+    },
+    {
+      "inherit_noise": true,
+      "note": "4"
+    },
+    {
+      "inherit_noise": true,
+      "note": "5"
+    },
+    {
+      "inherit_noise": true,
+      "note": "6"
+    },
+    {
+      "inherit_noise": true,
+      "note": "7"
+    },
+    {
+      "inherit_noise": true,
+      "note": "8"
+    },
+    {
+      "inherit_noise": true,
+      "note": "9"
+    },
+    {
+      "inherit_noise": true,
+      "note": "10"
+    },
+    {
+      "inherit_noise": true,
+      "note": "11"
+    },
+    {
+      "inherit_noise": true,
+      "note": "12"
+    },
+    {
+      "inherit_noise": true,
+      "note": "13"
+    },
+    {
+      "inherit_noise": true,
+      "note": "14"
+    },
+    {
+      "inherit_noise": true,
+      "note": "15"
+    },
+    {
+      "inherit_noise": true,
+      "note": "16"
+    },
+    {
+      "inherit_noise": true,
+      "note": "17"
+    }
+  ],
+  "name": "crystal",
+  "normal_texture": "/pa/terrain/crystal/textures/base/crystal_tile_normal.papa"
+}

@@ -1,0 +1,71 @@
+{
+  "ambient_sound": "/SE/Ambience/Amb_Planet_Moon",
+  "base_biome": "/pa/terrain/base/base.json",
+  "biomes": [
+    {
+      "elevation": [
+        -1,
+        1,
+        1
+      ],
+      "spec": "/pa/terrain/crystal/crystal.json",
+      "temperature": [
+        -1,
+        1,
+        1
+      ],
+      "water_distance": [
+        null,
+        null,
+        0
+      ]
+    }
+  ],
+  "enable_features": true,
+  "lighting": {
+    "ambient": {
+      "day_ground": [
+        0.35,
+        0.25,
+        0.45
+      ],
+      "day_intensity_hdr": 1.0,
+      "day_intensity_ldr": 1.0,
+      "day_sky": [
+        0.6,
+        0.45,
+        0.7
+      ],
+      "hdr_intensity": 1.0,
+      "ldr_intensity": 1.0,
+      "night_ground": [
+        0.25,
+        0.18,
+        0.35
+      ],
+      "night_intensity_hdr": 2.3,
+      "night_intensity_ldr": 2.3,
+      "night_sky": [
+        0.42,
+        0.35,
+        0.5
+      ]
+    },
+    "sun": {
+      "diffuse": [
+        0.6,
+        0.6,
+        0.7
+      ],
+      "hdr_intensity": 10.0,
+      "ldr_intensity": 5.0,
+      "specular": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    }
+  },
+  "metal_spot_spec": "/pa/effects/features/metal_splat_02.json",
+  "name": "crystal"
+}

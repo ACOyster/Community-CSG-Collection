@@ -1,0 +1,22 @@
+{
+  "author": "acesoyster",
+  "category": [
+    "titans",
+    "editor",
+    "biomes",
+    "csg"
+  ],
+  "context": "client",
+  "date": "2018/04/25",
+  "description": "Adds custom CSG, features, and textures for a host of new biomes, produced by the community. Contributions welcome!",
+  "display_name": "The Community CSG Collection - Editor and Client",
+  "identifier": "com.acesoyster.pa.community-csg-client",
+  "scenes": {
+  	"system_editor": [
+      "coui://ui/mods/com.acesoyster.pa.community-csg-client/system_editor.js"
+    ]
+  },
+  "signature": "(not yet implemented)",
+  "titansOnly": true,
+  "version": "1.0"
+}

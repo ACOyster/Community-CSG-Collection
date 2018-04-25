@@ -1,0 +1,225 @@
+{
+  "base_texture": "/pa/terrain/moon/textures/base/moon_tile_diffuse.papa",
+  "brushes": [
+    {
+      "bias": 4,
+      "brush_spec": "/pa/terrain/tools/brushes/hexagonal.json",
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "group": "basic",
+      "layer": 1,
+      "noise_range": [
+        0,
+        0
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "brush_spec": "/pa/terrain/tools/brushes/quadrilateral.json",
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "group": "basic",
+      "layer": 1,
+      "noise_range": [
+        0,
+        0
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "brush_spec": "/pa/terrain/tools/brushes/pentagonal.json",
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "group": "basic",
+      "layer": 1,
+      "noise_range": [
+        0,
+        0
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "brush_spec": "/pa/terrain/tools/brushes/septagonal.json",
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "group": "basic",
+      "layer": 1,
+      "noise_range": [
+        0,
+        0
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    },
+    {
+      "bias": 4,
+      "brush_spec": "/pa/terrain/tools/brushes/nonagonal.json",
+      "elevation_range": [
+        -1,
+        1
+      ],
+      "group": "basic",
+      "layer": 1,
+      "noise_range": [
+        0,
+        0
+      ],
+      "op": "BO_Add",
+      "proj": "BP_Bend",
+      "sample_scale": 1,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "threshold": 1,
+      "weight": 1,
+      "weight_scale": 1
+    }
+  ],
+  "color": [
+    1.0,
+    1.0,
+    1.0,
+    1
+  ],
+  "decals": [
+  ],
+  "features": [
+  ],
+  "layers": [
+    {
+      "disable": true,
+      "noise": {
+        "scale": 1.5,
+        "type": "simplex",
+        "zoom": 1
+      },
+      "note": "0"
+    },
+    {
+      "noise": {
+        "scale": 1,
+        "type": "simplex",
+        "zoom": 1
+      },
+      "note": "1"
+    },
+    {
+      "inherit_noise": true,
+      "note": "2"
+    },
+    {
+      "inherit_noise": true,
+      "note": "3"
+    },
+    {
+      "inherit_noise": true,
+      "note": "4"
+    },
+    {
+      "inherit_noise": true,
+      "note": "5"
+    },
+    {
+      "inherit_noise": true,
+      "note": "6"
+    },
+    {
+      "inherit_noise": true,
+      "note": "7"
+    },
+    {
+      "inherit_noise": true,
+      "note": "8"
+    },
+    {
+      "inherit_noise": true,
+      "note": "9"
+    },
+    {
+      "inherit_noise": true,
+      "note": "10"
+    },
+    {
+      "inherit_noise": true,
+      "note": "11"
+    },
+    {
+      "inherit_noise": true,
+      "note": "12"
+    },
+    {
+      "inherit_noise": true,
+      "note": "13"
+    },
+    {
+      "inherit_noise": true,
+      "note": "14"
+    },
+    {
+      "inherit_noise": true,
+      "note": "15"
+    },
+    {
+      "inherit_noise": true,
+      "note": "16"
+    },
+    {
+      "inherit_noise": true,
+      "note": "17"
+    }
+  ],
+  "name": "crystal",
+  "normal_texture": "/pa/terrain/crystal/textures/base/crystal_tile_normal.papa"
+}
