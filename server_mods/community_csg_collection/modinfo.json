@@ -13,6 +13,7 @@
   "date": "2018/04/25",
   "description": "Adds custom CSG, features, and textures for a host of new biomes, produced by the community. Contributions welcome!",
   "display_name": "The Community CSG Collection - Server",
+  "icon": "https://raw.githubusercontent.com/ACOyster/Community-CSG-Collection/master/CCCLogo.png",
   "forum": "https://forums.uberent.com/threads/the-community-csg-collection.72884/",
   "identifier": "com.acesoyster.pa.community-csg-server",
   "signature": "(not yet implemented)",
